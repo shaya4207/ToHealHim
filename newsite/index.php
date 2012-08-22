@@ -10,20 +10,29 @@
 		<link rel="stylesheet" type="text/css" href="http://<?php echo $file?>/_ext/default.css" />
 	</head>
 	<body>
+		<div class="header">
+			<div class="head_links_div">
+				<a href="" class="head_links fb"></a>
+				<a href="" class="head_links tw"></a>
+				<a href="" class="head_links go"></a>
+				<a href="" class="head_links fe"></a>
+				<div class="clear"></div>
+			</div>
+		</div>
 		<div class="main_wrapper">
 			<div class="main_nav">
 				<ul>
-					<li><a href=""></a></li>
-					<li><a href=""></a></li>
-					<li><a href=""></a></li>
-					<li><a href=""></a></li>
-					<li><a href=""></a></li>
+					<li><a href="" class="active">Link</a></li>
+					<li><a href="">Link</a></li>
+					<li><a href="">Link</a></li>
+					<li><a href="">Link</a></li>
+					<li><a href="">Link</a></li>
 				</ul>
 			</div>
 			<div class="content">
-				test
+				
 			</div>
-			<div class="clear">&nbsp;</div>
+			<div class="clear"></div>
 		</div>
 	</body>
 </html>
