@@ -1,0 +1,36 @@
+@font-face {
+	font-family: 'thh';
+	src: url('thh.eot');
+	src: url('thh.eot?#iefix') format('embedded-opentype'),
+		url('thh.svg#icomoon') format('svg'),
+		url('thh.woff') format('woff'),
+		url('thh.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'thh';
+	content: attr(data-icon);
+	speak: none;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+	font-family: 'thh';
+	font-style: normal;
+	speak: none;
+}
+.icon-facebook:before {
+	content: "\66";
+}
+.icon-twitter:before {
+	content: "\74";
+}
+.icon-google-plus:before {
+	content: "\67";
+}
+.icon-feed:before {
+	content: "\65";
+}
