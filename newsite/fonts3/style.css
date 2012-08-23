@@ -36,12 +36,9 @@
 .icon-cog:before {
 	content: "\73";
 }
-.icon-enter:before {
-	content: "\69";
+.icon-locked:before {
+	content: "\6c";
 }
-.icon-exit:before {
+.icon-unlocked:before {
 	content: "\6f";
-}
-.icon-user:before {
-	content: "\70";
 }

@@ -7,18 +7,26 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>Untitled Document</title>
-		<link rel="stylesheet" type="text/css" href="http://<?php echo $file?>/_ext/default.css" />
-		<link rel="stylesheet" type="text/css" href="http://<?php echo $file?>/fonts/style.css" />
+		<link rel="stylesheet" type="text/css" href="http://<?php echo $file?>/_ext/default.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="http://<?php echo $file?>/fonts/style.css" media="screen" />
 	</head>
 	<body>
 		<div class="header">
-			<div class="head_links_div">
-				<span aria-hidden="true" class="head_links icon-facebook"></span>
-				<span aria-hidden="true" class="head_links icon-twitter"></span>
-				<span aria-hidden="true" class="head_links icon-google-plus"></span>
-				<span aria-hidden="true" class="head_links icon-feed"></span>
+			<div class="head_links_int">
+				<span aria-hidden="true" class="head_links icon-cog" title="Settings"></span>
+				<span aria-hidden="true" class="head_links icon-enter" title="Log In"></span>
+				<span aria-hidden="true" class="head_links icon-exit" title="Log Out"></span>
+				<span aria-hidden="true" class="head_links icon-user" title="My Profile"></span>
+			</div>
+			<div class="head_links_ext">
+				<span aria-hidden="true" class="head_links icon-facebook" title="ToHealHim on Facebook"></span>
+				<span aria-hidden="true" class="head_links icon-twitter" title="ToHealHim on Twitter"></span>
+				<span aria-hidden="true" class="head_links icon-google-plus" title="ToHealHim on Google+"></span>
+				<span aria-hidden="true" class="head_links icon-feed" title="ToHealHim's Feed"></span>
 				<div class="clear"></div>
 			</div>
+			<div class="clear"></div>
+			<div class="top_search">Search</div>
 		</div>
 		<div class="main_wrapper">
 			<div class="main_nav">

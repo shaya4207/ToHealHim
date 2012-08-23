@@ -24,7 +24,44 @@ body{
 	box-shadow: 0px 8px 10px 0 #666;
 }
 
-.head_links_div{
+.head_links_int{
+	margin: 0 0 0 10px;
+	float: left;
+}
+
+.top_search{
+	margin: -38px auto 0;
+	width: 300px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	background: #888;
+	color: #fff;
+	-moz-text-shadow: 0px 5px 5px #000;
+	-webkit-text-shadow: 0px 5px 5px #000;
+	-khtml-text-shadow: 0px 5px 5px #000;
+	text-shadow: 0px 5px 5px #000;
+	font-size: 28px;
+	font-weight: 700;
+	-moz-box-shadow: 0px 8px 10px 0 #666;
+	-webkit-box-shadow: 0px 8px 10px 0 #666;
+	-khtml-box-shadow: 0px 8px 10px 0 #666;
+	box-shadow: 0px 8px 10px 0 #666;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.top_search:hover{
+	-moz-box-shadow: inset 0px 8px 10px 0 #666;
+	-webkit-box-shadow: inset 0px 8px 10px 0 #666;
+	-khtml-box-shadow: inset 0px 8px 10px 0 #666;
+	box-shadow: inset 0px 8px 10px 0 #666;
+}
+
+.head_links_ext{
 	float: right;
 }
 
@@ -41,6 +78,9 @@ span.head_links{
 	-webkit-box-shadow: 0px 8px 10px 0 #666;
 	-khtml-box-shadow: 0px 8px 10px 0 #666;
 	box-shadow: 0px 8px 10px 0 #666;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
 	border-radius: 10px;
 	float: left;
 	cursor: pointer;
@@ -98,10 +138,10 @@ span.head_links:hover{
 	width: 159px;
 	color: #666;
 	margin: 0 0 0 10px;
+	border: 1px solid #aaaba3;
 	border-right: none;
 	background: #f8fdbe;
 	text-decoration: none;
-	font-weight: 700;
 	z-index: 1;
 }
 
@@ -112,6 +152,11 @@ span.head_links:hover{
 	background: #f8fdbe;
 	text-decoration: none;
 	font-weight: 700;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
 }
 
 .content{
