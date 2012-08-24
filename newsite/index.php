@@ -45,6 +45,12 @@
 			</div>
 			<div class="clear"></div>
 		</div>
+		<div class="search_main hide">
+			<span class="search_close">X</span>
+			<div class="search_box">
+				test
+			</div>
+		</div>
 	</body>
 	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 	<script type="text/javascript" src="http://<?php echo $file?>/_ext/default.js"></script>
