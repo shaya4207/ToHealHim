@@ -3,6 +3,7 @@ $(document).ready(function(e){
 	external();
 	head_links();
 	search_main();
+	scrollbar();
 });
 
 function resize(){
@@ -52,3 +53,23 @@ function search_main(){
 			$('.search_main').addClass('hide');
 	});
 };
+
+function scrollbar(){
+	$('.main_content').mCustomScrollbar({
+		scrollInertia: 0
+	});
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
