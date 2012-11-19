@@ -1,0 +1,47 @@
+@import "h5bp";
+@import "compass/css3";
+@include h5bp-helpers;
+@include h5bp-chromeframe;
+@include h5bp-media;
+
+* {
+	box-sizing: border-box;	
+}
+
+body {
+	background: url(../img/diagonal_waves.png) left top repeat;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	font-size: 20px;
+}
+
+.main-wrap {
+	width: 80%;
+	height: 100%;
+	background: #f8fdbe;
+	margin: 0 auto;
+	div.main {
+		width: 80%;
+		float: left;
+	}
+	aside.main {
+		width: 20%;
+		float: left;
+	}
+}
+
+
+.chapter {
+	background: #fff;
+	h2 {
+		text-align: center;
+	}
+}
+
+
+
+.clear {
+	clear: both;
+}

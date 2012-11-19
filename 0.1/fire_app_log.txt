@@ -1,0 +1,64 @@
+2012-11-18 22:02:36 overwrite css/style.css 
+2012-11-18 22:02:42 overwrite css/style.css 
+2012-11-18 22:03:39 overwrite css/style.css 
+2012-11-18 22:03:57 identical css/style.css 
+2012-11-18 22:03:59 overwrite css/style.css 
+2012-11-18 22:04:00 overwrite css/style.css 
+2012-11-18 22:04:06 identical css/style.css 
+2012-11-18 22:06:51 overwrite css/style.css 
+2012-11-18 22:10:32 overwrite css/style.css 
+2012-11-18 22:12:20 overwrite css/style.css 
+2012-11-18 22:13:56 overwrite css/style.css 
+2012-11-18 22:23:34 overwrite css/style.css 
+2012-11-18 22:24:05 overwrite css/style.css 
+2012-11-18 22:24:14 overwrite css/style.css 
+2012-11-18 22:24:37 overwrite css/style.css 
+2012-11-18 22:24:40 overwrite css/style.css 
+2012-11-18 22:25:58 overwrite css/style.css 
+2012-11-18 22:26:13     error sass/style.scss (Line 2: File to import not found or unreadable: css3.
+Load paths:
+  C:/Documents and Settings/Shykee/My Documents/GitHub/ToHealHim/0.1/sass
+  C:/Documents and Settings/Shykee/My Documents/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Documents and Settings/Shykee/My Documents/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Documents and Settings/Shykee/My Documents/fire.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Documents and Settings/Shykee/My Documents/fire.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Documents and Settings/Shykee/My Documents/fire.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Documents and Settings/Shykee/My Documents/fire.app/lib/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-2.1.0.1/vendor/assets/stylesheets
+  C:/Documents and Settings/Shykee/My Documents/fire.app/lib/ruby/compass_extensions/susy-1.0.1/sass
+  C:/Documents and Settings/Shykee/My Documents/fire.app/lib/ruby/common/sassy-math-1.2/stylesheets
+  C:/Documents and Settings/Shykee/My Documents/fire.app/lib/ruby/common/modular-scale-1.0.2/stylesheets
+  C:/Documents and Settings/Shykee/My Documents/fire.app/lib/ruby/compass_extensions/zurb-foundation-3.1.1/scss
+  Compass::SpriteImporter)
+2012-11-18 22:26:13 overwrite css/style.css 
+2012-11-18 22:26:22     error sass/style.scss (Line 2: File to import not found or unreadable: css3.
+Load paths:
+  C:/Documents and Settings/Shykee/My Documents/GitHub/ToHealHim/0.1/sass
+  C:/Documents and Settings/Shykee/My Documents/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Documents and Settings/Shykee/My Documents/fire.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Documents and Settings/Shykee/My Documents/fire.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Documents and Settings/Shykee/My Documents/fire.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Documents and Settings/Shykee/My Documents/fire.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Documents and Settings/Shykee/My Documents/fire.app/lib/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-2.1.0.1/vendor/assets/stylesheets
+  C:/Documents and Settings/Shykee/My Documents/fire.app/lib/ruby/compass_extensions/susy-1.0.1/sass
+  C:/Documents and Settings/Shykee/My Documents/fire.app/lib/ruby/common/sassy-math-1.2/stylesheets
+  C:/Documents and Settings/Shykee/My Documents/fire.app/lib/ruby/common/modular-scale-1.0.2/stylesheets
+  C:/Documents and Settings/Shykee/My Documents/fire.app/lib/ruby/compass_extensions/zurb-foundation-3.1.1/scss
+  Compass::SpriteImporter)
+2012-11-18 22:26:22 identical css/style.css 
+2012-11-18 22:26:32 overwrite css/style.css 
+2012-11-18 22:26:34 identical css/style.css 
+2012-11-18 22:27:39 overwrite css/style.css 
+2012-11-18 22:27:54 overwrite css/style.css 
+2012-11-18 22:29:21 overwrite css/style.css 
+2012-11-18 22:29:37 overwrite css/style.css 
+2012-11-18 22:29:48 overwrite css/style.css 
+2012-11-18 22:30:10 overwrite css/style.css 
+2012-11-18 22:30:25 overwrite css/style.css 
+2012-11-18 22:42:27 overwrite css/style.css 
+2012-11-18 22:43:09 overwrite css/style.css 
+2012-11-18 22:43:56 overwrite css/style.css 
+2012-11-18 22:44:41 overwrite css/style.css 
+2012-11-19 00:55:28 overwrite css/style.css 
+2012-11-19 00:55:56 overwrite css/style.css 
+2012-11-19 01:02:47 overwrite css/style.css 
+2012-11-19 01:02:58 overwrite css/style.css 
