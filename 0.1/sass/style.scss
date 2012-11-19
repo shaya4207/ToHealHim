@@ -35,9 +35,17 @@ body {
 
 .chapter {
 	background: #fff;
+    text-align: justify;
+    padding: 5px 25px 10px;
+    margin: 15px;
+    @include box-shadow(rgba(black, 0.4) 0 0 10px, rgba(black, 0.2) 0 0 3px 1px inset);
 	h2 {
 		text-align: center;
+        margin: 0;
 	}
+    .posuk-num {
+      font-size: 0.8em;
+    }
 }
 
 

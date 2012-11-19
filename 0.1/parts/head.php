@@ -1,3 +1,7 @@
+<?php
+	$file = $_SERVER['HTTP_HOST'].dirname($_SERVER['SCRIPT_NAME']);
+	$root = dirname(__FILE__);
+?>
 <!doctype html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
@@ -10,7 +14,7 @@
   <title></title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="css/style.css">
-  <script src="js/js/libs/modernizr-2.5.3.min.js"></script>
+  <link rel="stylesheet" href="http://<?php echo $file;?>/css/style.css">
+  <script src="http://<?php echo $file;?>/js/js/libs/modernizr-2.5.3.min.js"></script>
 </head>
   <body>

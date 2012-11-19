@@ -62,3 +62,21 @@ Load paths:
 2012-11-19 00:55:56 overwrite css/style.css 
 2012-11-19 01:02:47 overwrite css/style.css 
 2012-11-19 01:02:58 overwrite css/style.css 
+2012-11-19 17:55:32 overwrite css/style.css 
+2012-11-19 17:56:03 overwrite css/style.css 
+2012-11-19 17:56:05 overwrite css/style.css 
+2012-11-19 17:56:35 overwrite css/style.css 
+2012-11-19 17:56:54 overwrite css/style.css 
+2012-11-19 17:57:41 overwrite css/style.css 
+2012-11-19 17:58:03 overwrite css/style.css 
+2012-11-19 17:58:12 overwrite css/style.css 
+2012-11-19 17:58:39 overwrite css/style.css 
+2012-11-19 17:58:50 overwrite css/style.css 
+2012-11-19 17:59:59     error sass/style.scss (Line 41: Invalid CSS after "    box-shadow": expected "{", was "()")
+2012-11-19 17:59:59 overwrite css/style.css 
+2012-11-19 18:00:24 overwrite css/style.css 
+2012-11-19 18:00:27 identical css/style.css 
+2012-11-19 18:00:56 overwrite css/style.css 
+2012-11-19 18:01:11 overwrite css/style.css 
+2012-11-19 18:01:23 overwrite css/style.css 
+2012-11-19 18:01:32 overwrite css/style.css 

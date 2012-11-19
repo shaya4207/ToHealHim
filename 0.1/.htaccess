@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^c/([a-zA-Z0-9]+)?$ index.php?c=$1 [NC,L]
+#RewriteRule ^c/?([a-zA-Z0-9]+)/$ index.php?c=$1
