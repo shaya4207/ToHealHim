@@ -1,6 +1,19 @@
 <?php
 	require('./parts/db.inc');
 	require('./parts/functions.php');
+
+	if(!isset($_GET['c'])) {
+		$title = "ToHealHim - תהלים";
+	} else {
+		$c = $_GET['c'];
+		$fields = array('heb_nums_heb','heb_nums_eng');
+		$q = db_select('heb_nums',$fields,'',"heb_nums_eng = $c AND heb_num_type = 1");
+		while ($res = mysql_fetch_assoc($q)) {
+			$eng = $res['heb_nums_eng'];
+			$heb = $res['heb_nums_heb'];
+			$title = "ToHealHim - Tehilim Chapter $eng <> תהלים פרק $heb";
+		}
+	}
 	include_once('./parts/head.php');
 ?>
 <div class="main-wrap" xmlns="http://www.w3.org/1999/html">
