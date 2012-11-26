@@ -4,3 +4,9 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^chapter/([a-zA-Z0-9]+)/verse/([a-zA-Z0-9]+)? index.php?c=$1&v=$2 [NC]
 RewriteRule ^chapter/([a-zA-Z0-9]+) index.php?c=$1 [NC]
 RewriteRule ^s/([a-zA-Z0-9]+)? search.php?s=$1 [NC]
+
+# BEGIN GZIP
+<ifmodule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
+</ifmodule>
+# END GZIP
