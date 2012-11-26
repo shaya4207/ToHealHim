@@ -19,6 +19,7 @@ body {
 }
 
 .main-wrap {
+  font-family: 'davidclm-medium', sans-serif;
   width: 80%;
   height: 100%;
   background: #f8fdbe;
@@ -44,7 +45,7 @@ body {
 
 
 .chapter {
-  font-family: 'davidclm-medium', sans-serif;
+  
   font-size: 24px;
   letter-spacing: normal;
   line-height: 1.3em;
@@ -81,7 +82,30 @@ body {
 }
 
 
+.homeButtonsDiv{
+  text-align: justify;
+  margin: 15px 15px 0 0;
+}
 
+.homeButtons{
+  font-size: 22px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  background: darken(#e7f084,10%);
+  color: #888;
+  &:hover{
+    background: darken(#d6df68,10%);
+    color: #000;
+  }
+}
+
+
+.breadcrumb{
+  font-family: 'davidclm-medium', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+}
 
 .clear {
   clear: both;

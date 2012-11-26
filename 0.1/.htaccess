@@ -1,3 +1,6 @@
 RewriteEngine On
-RewriteRule ^c/([a-zA-Z0-9]+)? index.php?c=$1 [NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^chapter/([a-zA-Z0-9]+)/verse/([a-zA-Z0-9]+)? index.php?c=$1&v=$2 [NC]
+RewriteRule ^chapter/([a-zA-Z0-9]+) index.php?c=$1 [NC]
 RewriteRule ^s/([a-zA-Z0-9]+)? search.php?s=$1 [NC]

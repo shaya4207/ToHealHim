@@ -26,11 +26,23 @@
 <div class="main" dir="rtl">
 <?php
   if(!isset($_GET['c'])) {
-    $fields = array('tehilim_chap_num','tehilim_chap_num_heb');
+?>
+    <div class="homeButtonsDiv">
+<?php
+      $fields = array('heb_nums_heb','heb_nums_eng');
+      $q = db_select('heb_nums', $fields, "", "", "0,150");
+      while($res = mysql_fetch_assoc($q)) {?>
+        <a href="http://<?php echo $file?>/chapter/<?php echo $res['heb_nums_eng'];?>" class="button homeButtons"><?php echo $res['heb_nums_heb'];?></a>
+  <?php
+      }
+  ?>
+    </div>
+<?php
+/*    $fields = array('tehilim_chap_num','tehilim_chap_num_heb');
     $q = db_select('chapters_full',$fields,'','','','','tehilim_chap_num');
     while($res = mysql_fetch_assoc($q)) {?>
       <div class="chapter">
-        <h2><a href="http://<?php echo $file?>/c/<?php echo $res['tehilim_chap_num'];?>"><?php echo $res['tehilim_chap_num_heb'];?></a></h2>
+        <h2><a href="http://<?php echo $file?>/chapter/<?php echo $res['tehilim_chap_num'];?>"><?php echo $res['tehilim_chap_num_heb'];?></a></h2>
         <?php
           $tehilim_chap_num = $res['tehilim_chap_num'];
           $flds = array('tehilim_text_nikkud','tehilim_posuk_num_heb');
@@ -41,25 +53,42 @@
         ?>
       </div>
       <?php
-    }
+    }*/
   } else {
-    $fields = array('tehilim_chap_num','tehilim_chap_num_heb');
-    $c = $_GET['c'];
-    $q = db_select('chapters_full',$fields,'',"tehilim_chap_num=$c",'','','tehilim_chap_num');
-    while($res = mysql_fetch_assoc($q)) {?>
-      <div class="chapter">
-        <h2><a href="http://<?php echo $file?>/c/<?php echo $res['tehilim_chap_num'];?>"><?php echo $res['tehilim_chap_num_heb'];?></a></h2>
-        <?php
-          $tehilim_chap_num = $res['tehilim_chap_num'];
-          $flds = array('tehilim_text_nikkud','tehilim_posuk_num_heb');
-          $q2 = db_select("chapters_full",$flds,"","tehilim_chap_num=$tehilim_chap_num");
-          while ($res2 = mysql_fetch_assoc($q2)) {
-            echo "<span class='posuk-num'>" . $res2['tehilim_posuk_num_heb'] . "</span> " . $res2['tehilim_text_nikkud'] . ": ";
-          }
-        ?>
-      </div>
-    <?php
-     }
+?>
+    <div class="breadcrumb">
+      <a class="button homeButtons" href="http://<?php echo $file;?>/">Home</a> &lAarr; פרק <?php echo $heb;?>
+      <?php
+        if(isset($_GET['v']) && !empty($_GET['v'])) {?>
+           &lAarr; פסוק <?php echo $_GET['v'];?>
+      <?php
+        }
+      ?>
+    </div>
+<?php
+    if(isset($_GET['c']) && !empty($_GET['c']) && !isset($_GET['v'])) {
+      $fields = array('tehilim_chap_num','tehilim_chap_num_heb');
+      $c = $_GET['c'];
+      $q = db_select('chapters_full',$fields,'',"tehilim_chap_num=$c",'','','tehilim_chap_num');
+      while($res = mysql_fetch_assoc($q)) {?>
+        <div class="chapter">
+          <h2><a href="http://<?php echo $file?>/chapter/<?php echo $res['tehilim_chap_num'];?>"><?php echo $res['tehilim_chap_num_heb'];?></a></h2>
+          <?php
+            $tehilim_chap_num = $res['tehilim_chap_num'];
+            $flds = array('tehilim_text_nikkud','tehilim_posuk_num_heb','tehilim_posuk_num');
+            $q2 = db_select("chapters_full",$flds,"","tehilim_chap_num=$tehilim_chap_num");
+            while ($res2 = mysql_fetch_assoc($q2)) {
+              $verse = $res2['tehilim_posuk_num'];
+              echo "<a href='http://$file/chapter/$c/verse/$verse' class='posuk-num'>" . $res2['tehilim_posuk_num_heb'] . "</a> " . $res2['tehilim_text_nikkud'] . ": ";
+            }
+          ?>
+        </div>
+      <?php
+       }
+    } elseif(isset($_GET['c']) && !empty($_GET['c']) && isset($_GET['v']) && !empty($_GET['v'])) {
+      echo "<pre>";
+      print_r($_GET);
+    }
   }
   ?>
   </div>
