@@ -3,58 +3,86 @@
 @include h5bp-helpers;
 @include h5bp-chromeframe;
 @include h5bp-media;
-@import "fonts";
+/*@import "fonts";*/
 
 * {
-	@include box-sizing(border-box);
+  @include box-sizing(border-box);
 }
 
 body {
-	background: url(../img/diagonal_waves.png) left top repeat;
-	padding: 0;
-	margin: 0;
-	height: 100%;
-	width: 100%;
-	font-size: 20px;
+  background: url(../img/diagonal_waves.png) left top repeat;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
 }
 
 .main-wrap {
-	width: 80%;
-	height: 100%;
-	background: #f8fdbe;
-	margin: 0 auto;
-	div.main {
-		width: 80%;
-		float: left;
-	}
-	aside.main {
-		width: 20%;
-		float: left;
-	}
+  width: 80%;
+  height: 100%;
+  background: #f8fdbe;
+  margin: 0 auto;
+  div.main {
+    width: 74%;
+    float: right;
+  }
+  aside.main {
+    font-family: 'davidclm-medium', sans-serif;
+    width: 22%;
+    float: left;
+    background: #fff;
+    padding: 5px 0 10px;
+    margin: 15px 0 0 15px;
+    text-align: center;
+    @include box-shadow(rgba(black, 0.4) 0 0 10px, rgba(black, 0.2) 0 0 3px 1px inset);
+    hr{
+      width: 90%;
+    }
+  }
 }
 
 
 .chapter {
-	font-family: 'davidclm-medium';
-	font-size: 28px;
-	letter-spacing: normal;
-	line-height: 1.3em;
-	background: #fff;
-    text-align: justify;
-    padding: 5px 25px 10px;
-    margin: 15px;
-    @include box-shadow(rgba(black, 0.4) 0 0 10px, rgba(black, 0.2) 0 0 3px 1px inset);
-	h2 {
-		text-align: center;
-        margin: 0;
-	}
-    .posuk-num {
-      font-size: 0.6em;
-    }
+  font-family: 'davidclm-medium', sans-serif;
+  font-size: 24px;
+  letter-spacing: normal;
+  line-height: 1.3em;
+  background: #fff;
+  text-align: justify;
+  padding: 5px 25px 10px;
+  margin: 15px 15px 0 0;
+  @include box-shadow(rgba(black, 0.4) 0 0 10px, rgba(black, 0.2) 0 0 3px 1px inset);
+  h2 {
+    text-align: center;
+    margin: 0;
+  }
+  .posuk-num {
+    font-size: 0.6em;
+  }
 }
 
 
 
+.button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px 15px;
+  margin: 5px;
+  background: #e7f084;
+  @include border-radius(10px);
+  color: #000;
+  &:hover, &:focus {
+    background: #d6df68;
+  }
+  .bold{
+    font-weight: bold;
+  }
+}
+
+
+
+
 .clear {
-	clear: both;
+  clear: both;
 }
